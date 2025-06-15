@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cal{
+            border: solid black;
+            display: inline-block;
+            padding: 09px;
+            margin: 40%;    
+            margin-top: 200px;
+            background-color: azure;
+        }   
+        button{
+            width: 40px;
+            height: 40px;
+            border: solid black;
+        }
+        body{
+            background-color: rgb(0, 255, 255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="cal">
+        <input type="text" style="width: 164px;height: 50px;border: solid black;">
+        <div>
+            <button class="operator" onclick="cal('ac')"   value="ac">Ac</button>
+            <button class="operator" onclick="cal('del')" value="Del">Del</button>
+            <button class="operator" onclick="cal('%')" value="%">%</button>
+            <button class="operator" onclick="cal('/')" value="/">/</button>
+        </div>
+        <div>
+            <button class="operator" onclick="cal('7')" value="7">7</button>
+            <button class="operator" onclick="cal('8')" value="8">8</button>
+            <button class="operator" onclick="cal('9')" value="9">9</button>
+            <button class="operator" onclick="cal('*')" value="*">*</button>
+        </div>
+        <div>
+            <button class="operator" onclick="cal('4')" value="4">4</button>
+            <button class="operator" onclick="cal('5')" value="5">5</button>
+            <button class="operator" onclick="cal('6')" value="6">6</button>
+            <button class="operator" onclick="cal('-')" value="-">-</button>
+        </div>
+        <div>
+            <button class="operator" onclick="cal('1')" value="1">1</button>
+            <button class="operator" onclick="cal('2')" value="2">2</button>
+            <button class="operator" onclick="cal('3')" value="3">3</button>
+            <button class="operator" onclick="cal('+')" value="+">+</button>
+        </div>
+        <div>
+            <button class="operator" onclick="cal('0')" value="0">0</button>
+            <button class="operator" onclick="cal('00')" value="00">00</button>
+            <button class="operator" onclick="cal('.')" value=".">.</button>
+            <button class="operator" onclick="cal('/')" value="=">=</button>
+        </div>
+    </div>
+</body>
+<script>
+    function cal(v){
+        if(v=="="){
+            document.getElementById("display").value=eval(n);
+            n="";
+        }
+        else if(v=="del"){
+         document.getElementById("display").value="";
+         n="";
+
+        }
+        else{
+            n+=v;
+                     document.getElementById("display").value=n;
+
+        }
+
+    }
+</script>
+</html>
