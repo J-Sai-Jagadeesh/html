@@ -180,6 +180,7 @@ System.out.println();
 */
 
 /* 9 */
+
 /*
 import java.util.Scanner;
 class Pattern9
@@ -209,6 +210,7 @@ even=2;
 */
 
 /*10 */
+
 /*
 import java.util.Scanner;
 class Pattern10
@@ -233,9 +235,10 @@ System.out.println();
 */
 
 /* 11 */
+
 /*
 import java.util.Scanner;
-class Pattern11
+class Pattern
 {
 public static void main(String[] args)
 {
@@ -263,7 +266,7 @@ System.out.println();
 
 /*
 import java.util.Scanner;
-class Pattern11
+class Pattern
 {
 public static void main(String[] args)
 {
@@ -286,10 +289,11 @@ System.out.print("2\n");
 }
 */
 
+/*13*/
 
 /*
 import java.util.Scanner;
-class Patterns13 {
+class Patterns{
 public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 int n = scanner.nextInt();
@@ -322,9 +326,11 @@ System.out.println();
 }
 }*/
 
+/*14*/
+
 /*
 import java.util.Scanner;
-class patterns14 {
+class patterns{
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -344,10 +350,11 @@ System.out.println();
 }
 }*/
 
+/*15*/
 
 /*
 import java.util.Scanner;
-class Patterns15 {
+class Patterns {
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -367,9 +374,11 @@ System.out.println();
 }
 }*/
 
+/*16*/
+
 /*
 import java.util.Scanner;
-class Patterns16 {
+class Patterns{
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -389,9 +398,11 @@ System.out.println();
 }
 }*/
 
+/*17*/
+
 /*
 import java.util.Scanner;
-class Patterns17 {
+class Patterns{
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -411,9 +422,11 @@ System.out.println();
 }
 }*/
 
+/*18*/
+
 /*
 import java.util.Scanner;
-class Patterns18 {
+class Patterns{
 public static void main(String args[]){
 int n;
 Scanner s1=new Scanner(System.in);
@@ -432,6 +445,8 @@ System.out.println();
 }
 }
 }*/
+
+/*19*/
 
 /*
 import java.util.Scanner;
@@ -455,6 +470,7 @@ System.out.println();
 }
 }*/
 
+/*20*/
 
 import java.util.Scanner;
 class Patterns20 {
