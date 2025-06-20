@@ -58,7 +58,7 @@ sub();
 class Static{
 int a=10;
 int b=20;
-static void add()
+static void addandsub()
 {
 Static ob=new Static();
 System.out.println(ob.a+ob.b);
@@ -66,7 +66,7 @@ System.out.println(ob.a-ob.b);
 }
 public static void main(String []jaya)
 {
-add();
+addandsub();
 }
 }*/
 
